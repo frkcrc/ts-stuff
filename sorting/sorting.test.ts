@@ -1,5 +1,7 @@
 import bubbleSort from "./bubblesort";
 import insertionSort from "./insertionsort";
+import mergeSort from "./mergesort";
+import quickSort from "./quicksort";
 import selectionSort from "./selectionsort";
 
 type SortFunction = (v: number[]) => number[];
@@ -31,4 +33,6 @@ const runTest = (sort: SortFunction, name: string) => {
 runTest(selectionSort, 'Selection sort');
 runTest(insertionSort, 'Insertion sort');
 runTest(bubbleSort, 'Bubble sort');
+runTest(mergeSort, 'Merge sort');
+runTest(quickSort, 'Quick sort');
 
