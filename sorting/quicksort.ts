@@ -28,5 +28,3 @@ function quicks(v: number[], start: number, end: number) : void {
     quicks(v, i+1, end);
   }
 }
-
-quickSort([0,1]);
