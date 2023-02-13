@@ -1,4 +1,5 @@
 import bubbleSort from "./bubblesort";
+import heapSort from "./heapsort";
 import insertionSort from "./insertionsort";
 import mergeSort from "./mergesort";
 import quickSort from "./quicksort";
@@ -35,4 +36,5 @@ runTest(insertionSort, 'Insertion sort');
 runTest(bubbleSort, 'Bubble sort');
 runTest(mergeSort, 'Merge sort');
 runTest(quickSort, 'Quick sort');
+runTest(heapSort, 'Heap sort');
 
